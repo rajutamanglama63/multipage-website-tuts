@@ -141,3 +141,25 @@ nav button {
 .nav__menu a:hover {
   color: var(--color-bg2);
 }
+
+/* ================== Header ================== */
+header {
+  position: relative;
+  top: 5rem;
+  overflow: hidden;
+  border: 1px solid pink;
+  height: 70vh;
+  margin-bottom: 5rem;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+}
+
+.header__left p {
+  margin: 1rem 0 2.4rem;
+}
